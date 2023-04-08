@@ -1,0 +1,15 @@
+name = "djulia"
+uuid = "e4eef2dd-6e54-4671-9457-ae00497bf8b0"
+authors = ["FranciscoAscue <francisco.ascue131@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
+
+[compat]
+julia = "1"
